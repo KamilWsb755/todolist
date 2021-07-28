@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="header">
+            <h1>todo list</h1>
+            <input type="text" class="task" placeholder="wpisz treść zadania...">
+            <button class="add">add</button>
+        </div>
+        <div class="list">
+            <h3>lista zadań: <span class="count">0</span></h3>
+            <p class="empty"> Brak zadań do wykonania </p>
+            <ul>
+                <!-- <li class="finished">Siemanko <div class="tools">
+                        <button class="finish"><i class="fas fa-check"></i></button><button
+                            class="edit">edit</button><button class="delete"><i class="fas fa-times"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </li>
+                <li>Siemanko <div class="tools">
+                        <button class="finish"><i class="fas fa-check"></i></button>
+                        <button class="edit">edit</button>
+                        <button class="delete"><i class="fas fa-times" aria-hidden="true"></i></button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="popup">
+            <h3>Edytuj zadanie:</h3>
+            <input type="text" class="editInput">
+            <div class="buttons">
+                <button class="accept">zatwierdź</button> <button class="cancel">anuluj</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

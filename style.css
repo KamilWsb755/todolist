@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh; 
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.link{
+    border-radius: 5px;
+}
+a{
+    padding: 20px;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background .3s, color .3s;
+}
+a:hover{
+    color: white;
+    background-color: royalblue;
+}
